@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* база */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.none {
+    display: none !important;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*шапка*/
+.header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff linear-gradient(158deg, #a0e8fe 0%, #73b2d2 100%);
+    color: #fff;
+    border-bottom-right-radius: 100px;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header-img {
+    border-radius: 120px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn {
+    background-color: #41668D;
+    border-radius: 8px;
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    line-height: 1;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: #4290ef;
+}
+
+.btn-outline {
+    border: 1px solid #73b2d2;
+    border-radius: 8px;
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    line-height: 1;
+    transition: all 0.2s ease-in;
+}
+
+.btn-outline:hover {
+    background-color: #73b2d2;
+}
+
+/*После шапки Все котенки*/
+.portfolio {
+    padding: 80px 0;
+
+}
+
+.portfolio-title {
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 65px;
+    color: #41668D;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: opacity 0.2s ease-in;
+}
+
+.project-img:hover {
+    opacity: 0.8;
+
+}
+
+.project-title {
+    font-size: 22px;
+    color: #41668D;
+}
+
+.project-title a {
+    color: #41668D;
+    text-decoration: underline;
+}
+
+/*контакты*/
+.contacts {
+    background: #ffffff linear-gradient(158deg, #a0e8fe 0%, #73b2d2 100%);
+    border-top-left-radius: 100px;
+    color: #fff;
+    padding: 80px 0;
+
+}
+
+.contacts-title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 65px;
+}
+
+.messengers {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+
+}
+
+.messenger {
+    flex-grow: 1;
+    border-radius: 20px;
+    border: 1px solid #73b2d2;
+    padding: 46px 20px;
+    color: #fff;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.messenger:hover {
+    background-color: #73b2d2;
+    transition: background-color 0.2s ease-in;
+}
+
+/*ФУтер*/
+.footer {
+    padding: 30px 0;
+    background-color: #a4b0bd;
+    color: #41668D;
+
+}
+
+.footer a {
+    color: #41668D;
+}
+
+.footer-inner {
+    font-style: 14px;
+    text-align: center;
+}
+
+.footer-inner p+p {
+    margin-top: 15px;
+}
+
+/*Внутренние страницы*/
+.inner-page {
+    padding: 80px 0 40px;
+}
+
+.inner-page-details {
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+}
+
+.inner-page-title {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.inner-page-text {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.inner-page-link {
+    color: #a4b0bd;
+}
+
+.inner-page-link a {
+    color: #a4b0bd;
+    text-decoration: underline;
+}
+
+.inner-page-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.inner-page-backlink {
+    max-width: 770px;
+    background-color: #41668D;
+    padding: 30px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+transition: all 0.2s ease-in;
+}
+.inner-page-backlink:hover {
+    background-color: #4290ef;
+}
