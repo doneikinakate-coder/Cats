@@ -1,0 +1,5 @@
+@media(max-with: 1080px){
+.header-row {
+        column-gap: 15px;
+    }
+    }
